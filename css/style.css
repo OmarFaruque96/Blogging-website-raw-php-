@@ -1,0 +1,104 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+/* GLobal CSS */
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #333;
+	font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	
+}
+textarea{
+	height: 600px;
+	width: 100%;
+}
+
+.card-body h6 {
+    font-size: 13px;
+    color: black;
+}
+.card-body a:hover {
+    color: #008000;
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+    height: 80px;
+}
+/*blog part style*/
+.blog{
+	margin:10px 10px;
+	padding: 10px 10px;
+}
+.imageSize{
+	height: 350px; 
+	width: 100%;
+	border-radius: 5%;
+}
+.right_cat_name{
+	text-align: right;
+	padding: 15px 0px;
+}
+.left_date_view{
+	text-align: left; 
+	padding: 15px 0px;
+}
+.sidebar_card_width{
+	width: 16rem;
+}
+.leftbar_card_width{
+	width: 25rem;
+	margin-left: 10px;	
+}
+.leftbar{
+	margin-top: 12px;
+	padding: 2px 0px;
+}
+
+/*side bar style*/
+.sidebar{
+	margin-top: 30px;
+}
+.sidebar_cat{
+	text-align: left;
+}
+/*post count in category section Sidebar */
+.post_count{
+	text-align: right;
+}
+.card-body-img{
+	height: 50px;
+	width: 50px;
+	border: round;
+}
+.card-body h6{
+	font-size: 13px;
+}
+.rp p{
+	font-size: 10px;
+}
+.card-body-title{
+
+}
+
+/* comments section style */
+.comments{
+
+}
+.comments h5{
+	font-style: bold;
+}
+
+.leaveComment btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+    margin: 10px 0px;
+}
